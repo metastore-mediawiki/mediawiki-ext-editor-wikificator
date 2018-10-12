@@ -14,7 +14,7 @@ function extJS_getWikiFicator() {
  * WikiEditor. Set WikiFicator.
  * ------------------------------------------------------------------------------------------------------------------ */
 
-function extJS_setWikiFicator() {
+function extJS_runWikiFicator() {
 	let customizeToolbar = function () {
 
 		$('#wpTextbox1').wikiEditor('addToToolbar', {
@@ -53,5 +53,5 @@ function extJS_setWikiFicator() {
 
 $(function () {
 	extJS_getWikiFicator();
-	extJS_setWikiFicator();
+	extJS_runWikiFicator();
 });
